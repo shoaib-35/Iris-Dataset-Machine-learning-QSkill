@@ -9,7 +9,6 @@ dataset to classify flowers into **Setosa**, **Versicolor**, or
 
 -   **Domain:** Artificial Intelligence & Machine Learning
 -   **Internship period:** 14 September 2026 -- 14 October 2026
--   **Task submission deadline:** 14 October 2026
 -   **Task:** Iris Flower Classification
 
 ## Objective
@@ -75,7 +74,7 @@ the notebook, so a separate dataset download is not required.
 3.  Install the dependencies:
 
     ``` bash
-    pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+    pip install -r requirements.txt
     ```
 
 4.  Start Jupyter:
@@ -83,8 +82,13 @@ the notebook, so a separate dataset download is not required.
     ``` bash
     jupyter notebook
     ```
+    or if you want it in another browser tab
 
-5.  Open `Iris Flower Classification.ipynb` and run the cells from top
+    ``` bash
+    jupyter notebook &
+    ```
+
+6.  Open `Iris Flower Classification.ipynb` and run the cells from top
     to bottom.
 
 ## Results
@@ -106,27 +110,16 @@ exact result may change when the notebook is run again.
 
 ## Internship Requirement Coverage
 
-  -----------------------------------------------------------------------
-  QSkill requirement                  Project coverage
-  ----------------------------------- -----------------------------------
-  Load the Iris dataset               Uses `scikit-learn`'s built-in
-                                      dataset
-
-  Explore the dataset visually        Histograms, feature/target plots,
-                                      and pair plot
-
-  Split training and test data        Uses `train_test_split`
-
-  Preprocess if needed                Dataset is used without additional
-                                      cleaning
-
-  Train a classifier                  Logistic Regression, plus a simple
-                                      rule-based baseline
-
-  Evaluate the model                  Validation accuracy,
-                                      cross-validation, and test accuracy
-  -----------------------------------------------------------------------
-
+---------------------------------------------------------------------------
+| QSkill requirement               | Project coverage                       |
+|----------------------------------|---------------------------------------|
+| Load the Iris dataset            | Uses `scikit-learn`'s built-in dataset  |
+| Explore the dataset visually     | Histograms, feature/target plots, and pair plot    |
+| Split training and test data     | Uses `train_test_split`               |
+| Preprocess if needed             | Dataset is used without additional cleaning     |
+| Train a classifier               | Logistic Regression, plus a simple rule-based baseline    |
+| Evaluate the model               | Validation accuracy, cross-validation, and test accuracy               |
+---------------------------------------------------------------------------
 ## Author
 
 Prepared for the QSkill AI & ML Internship.
